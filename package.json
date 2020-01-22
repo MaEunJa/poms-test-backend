@@ -35,7 +35,7 @@
   "scripts": {
     "deploy": "prisma deploy",
     "generate": "prisma generate",
-    "prisma": "npx run deploy && yarn run generate",
+    "prisma": "npm run deploy && yarn run generate",
     "dev": "nodemon --exec babel-node src/server.js",
     "prebuild": "npm run generate",
     "build": "babel src -d build",
